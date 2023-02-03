@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+button{
+   cursor: pointer;
+   border: none;
+}
+
+#backimg{
+    background:url(img/Background.jpg);
+    background-size: cover;
+    height: 730px;
+    border-bottom: 8px solid #222;
+}
+.background{
+    background: rgb(0, 0, 0,.4);
+    background-image: linear-gradient(0deg, rgba(0,0,0,.8), transparent 60%, rgba(0,0,0,.8) );
+    height: 100.1%;
+}
+.navebar{
+    display: flex;
+    padding: 20px 50px;
+    margin-bottom: 100px;
+}
+.logo{
+    width: 10.4375rem;
+    height: 11.8125rem;
+    margin-right: auto;
+    margin-top: -69px;
+}
+#language{
+    margin-right: 1.375rem;
+   
+    border-radius: 5px;
+    background: transparent;
+    padding: 0 10px;
+    height: 40px;
+}
+option{
+    background-color: gray;
+}
+.signin{
+    background-color: #e50914;
+    font-size: 1rem;
+    padding: 0 20px;
+    border-radius: 5px;
+    height: 40px;
+}
+.main{
+    text-align: center;
+    padding: 75px 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.main h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.main p{
+   font-size: 1.625rem ; 
+   margin-bottom: 20px ;
+}
+.form{
+  display: flex;  
+  justify-content: center;
+}
+h3{
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.form div{
+    width: 500px;
+    height: 70px ;
+    position: relative;
+}
+.form input{
+    height: 100%;
+    width: 100%;
+}
+input:focus{
+    outline: none;
+}
+.form button{
+    width: 250px;
+    background-color: #e50914;
+    font-size: 1.875rem;
+}
+.form label{
+    position: absolute;
+    left: 10px;
+    color: grey;
+    margin-top: 20px;
+}
+.tv{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding: 70px 45px
+}
+.container{
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+h2{
+    font-size: 3.125rem;
+}
+.tvclip{
+    width: 45%;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+.description{
+    width: 50%;
+}
+.description p{
+    font-size: 1.625rem;
+    margin-top: 20px;
+}
+.tvclip img{
+width: 100%;
+z-index: 10;
+max-width: 600px;
+position: relative;
+}
+#tvvideo{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 87%;
+    height: 73%;
+}
+.phonesection{
+    background-color: black;
+    padding: 20px;
+    border-bottom: 9px solid #222;
+}
+.phonesection .container{
+    justify-content: space-between;
+}
+.mobile{
+    position: relative;
+}
+.mobile img{
+max-width: 350px;
+}
+.stronger{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 1px;
+    border-radius: 10px;
+    border: 2px solid hsla(0, 0%, 100%, .25);
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translate(-50%);
+}
+.stronger img{
+    width: 50px;
+    margin-right: 10px;
+}
+.stronger span{
+    color: #0071eb;
+    margin-right: 50px;
+}
+.devices{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding-top: 50px;
+}
+#devicesclip{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    max-width: 63%;
+    max-width: 60%;
+    top: 34%;
+transform: translate(-50%,-50%);
+}
+
+.kids{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding-top: 50px;
+    min-height: 500px;
+}
+.kids img{
+    max-width: 90%;
+}
+.kids .description{
+    width: 55%;
+}
+.qst{
+  background-color: black;  
+  border-bottom: 9px solid #222;
+  padding: 50px;
+}
+.sm-container{
+    margin: 0 auto;
+    max-width: 925px;
+    text-align: center;
+    font: size 1.625rem;
+}
+.sm-container ul{
+    list-style: none;
+    margin-bottom: 70px;
+}
+li button{
+    background-color: #303030;
+    width: 90%;
+    text-align: start;
+    padding: 20px;
+    font: size 1.625rem;
+    margin-bottom: 7px;
+    font-size: 25px;
+}
+li button img{
+    float: right;
+    width: 30px;
+}
+li div{
+    width: 90%;
+    text-align: left;
+    background-color: #303030;
+    margin: auto;
+    font: size 1.625rem;
+    padding: 20px;
+    margin-bottom: 5px;
+    
+}
+li div p:first-child{
+    margin-bottom: 30px;
+}
+.sm-container h1{
+    font-size: 3.125rem;
+    margin-bottom:  20px;
+}
+footer{
+    background-color: black;
+    padding: 50px 0; 
+}
+.footercontent{
+    width: 60%;
+    margin: auto;
+}
+.content{
+    width: 100%;
+    margin: auto;
+    min-height: 180px;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+}
+.content p{
+    margin-bottom: 30px;
+}
+.content li{
+    float: left;
+    width: 25%;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: gray;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+.footercontent p{
+    color: gray;
+    margin-top: 30px;
+}
+footer select{
+    color: gray;
+    width: 140px ;
+}
+footer select option{
+    background-color: black;
+}
+
+
+
+@media (max-width:1450px){
+    .main h1{
+        font-size: 3.125rem;
+    }
+    .form div{
+        width: 450px;
+        height: 60px;
+    }
+    .form button{
+        width: 212px;
+        font-size: 1.625rem;
+    }
+}
+
+@media (max-width: 950px){
+    .logo{
+        width: 108px; 
+        height: 130px;
+    }
+    .form{
+        display: block;
+    }
+    .form div{
+        height: 50px;
+        width: 100%; 
+    }
+   .form button{
+    font-size: 1rem;
+    height: 40px;
+    width: 130px;
+    margin-top: 15px;
+   } 
+   
+  h3{
+    font-size: 1.625rem;
+    max-width: 500px;
+  }
+  .container{
+    display: block;
+    text-align: center;
+    padding: 0 30px;
+  }
+  .tvclip .description{
+    width: 100%;
+  }
+  .kids .description{
+    width: 100%;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  .description p{
+    font-size: 1.625rem;
+  }
+.phonesection .container, .kids, .container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.kids img{
+    max-width: 80%;
+    margin-bottom: 30px;
+}
+.question div, .question button{
+font-size: 1.125rem;
+}
+.question button{
+    padding: 15px;
+}
+.question button img{
+    width: 20px;
+}
+.sm-container form{
+   max-width: 500px;
+    margin: auto;
+}
+.content li{
+    width: 33%;
+}
+
+}
+@media (max-width: 550px){
+    .main{
+        padding-bottom: 0;
+    }
+    .main h1{
+        font-size: 1.75rem;
+    }
+    .main br{
+        display: none;
+    }
+    .main p, h3{
+        font-size: 1.125rem;
+    }
+    .navebar{
+        margin: 0;
+    }
+    #backimg{
+        height: fit-content;
+    }
+    .logo{
+        width:140px;
+        margin-top: -40px;
+    }
+    .navebar{
+        padding: 20px 15px;
+    }
+    .navebar language{
+       width: 100px; 
+       height: 100px;
+    }
+    .signin{
+        width: 90px;
+        height: 40px;
+    }
+    h2{
+       font-size: 1.625rem; 
+    }
+    .description p{
+        font-size: 1.125rem;
+    }
+    .tv, .phonesection, .devices, .kids{
+        padding: 50px 0;
+    }
+    .mobiledevice{
+        max-width: 300px;
+    }
+    .stronger{
+        font-size: 13px;
+    }
+    .stronger img{
+        width: 34px;
+    }
+    .qst{
+        padding: 40px 0;
+    }
+    .question div, .question button{
+        width: 90%;
+    }
+    .sm-container form{
+     padding: 0 20px;
+    }
+    .sm-container h1{
+        font-size: 1.625rem;
+        margin-bottom: 16px;
+    }
+    .sm-container ul{
+        margin-bottom: 20px;
+    }
+
+}
